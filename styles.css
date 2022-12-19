@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Ubuntu:ital@0;1&display=swap');
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+
+/*----------------------------------------------------HEADER--------------------------------------------------------*/
+
+header{
+
+    width: 100%;
+    background-color: #9370DB;
+    justify-content: space-between;
+
+}
+
+#logo{
+ 
+    width: 180px;
+    height: 180px;
+   
+}
+
+#container-lista{
+    width: 50%;
+    
+}
+
+
+#lista{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left:10% ;
+    width: 100%;
+
+}
+
+#lista li{
+    list-style-type: none;
+    font-size: 17px;
+
+}
+
+.li{
+    position: relative;
+    top: 13.5px;
+    left: -14px;
+    color: #ffff;
+}
+
+#li-1{
+    padding-right: 14px;
+}
+
+#help{
+    padding: 14px;
+    background-color: #ffff;
+    border-radius: 25px;
+    color: #9370DB;
+}
+
+
+/*--------------------------------------HOME---------------------------------------------*/
+
+
+#home-txt{
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #9370DB;
+    width: 50%;
+
+}
+
+#home-txt h1{
+    font-size: 64px;
+    
+    padding-left: 100px ;
+    width: 50%;
+}
+
+#home-txt h2{
+
+   padding-top: 8%;
+   font-size: 28px; 
+
+}
+
+
+#home-img{
+
+    justify-content: center;
+    width: 50%;
+
+}
+
+#img-home1{
+
+    max-width: 508px;
+    max-height: 500px;
+}
+
+
+#home-2{
+
+flex-direction: column;
+
+}
+
+
+#txt-home2{
+
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 75%;
+    height: 50vh;
+
+
+
+}
+
+
+#txt-home2 h1 {
+
+color: #9370DB;
+font-weight: 800px;
+font-size: 68px;
+
+
+}
+
+#txt-h2-p{
+
+    flex-direction: column;
+    padding-top: 10px;
+    justify-content: space-evenly;
+
+
+}
+
+#txt-h2-p p {
+
+padding-bottom: 10px;
+
+}
+
+/*-------------------------------------------------------------HOME3----------------------------------------------------------------------------------------*/
+
+
+#home-3{
+    flex-direction: column;
+}
+
+#h3-titulo h1{
+
+color: #9370DB;
+font-size: 48px;
+padding-top: 25px ;
+
+}
+
+
+#img-h3{
+    max-width:500px;
+}
+
+#h3-content{
+
+    justify-content: space-evenly;
+
+}
+
+#txt-h3{
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25%;
+    height: 35VH;
+
+    font-weight 
+
+}
+
+
+
+
+
+/*-------------------------------------------------------------media querie??------------------------------------------------------------------------------*/
+
+@media (max-width: 1080px) {
+
+    
+    
+    #home{
+        flex-direction: column;
+    }
+
+    #home-txt h1{
+        width:80vw;
+        padding-left: 70px;
+        padding-top: 100px;
+    }
+
+    #h2-img{
+
+        max-width: 800px;
+
+    }
+    
+    #home-2{
+
+        padding-top: 50px;
+
+    }
+
+    #h3-content{
+
+        flex-direction: column;
+
+    }
+    
+    #txt-h3{
+
+        width: 55.5%;
+        align-items: center;
+
+    }
+
+}
