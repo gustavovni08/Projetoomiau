@@ -188,7 +188,46 @@ padding-top: 25px ;
     width: 25%;
     height: 35VH;
 
-    font-weight 
+
+}
+
+/*-------------------------------------------------------------help-----------------------------------------------------------------------------------------*/
+
+
+#help-section{
+    background-color: #9370DB;
+    justify-content: space-between;
+}
+
+
+#help-txt{
+    flex-direction: column;
+    color: #ffff;
+    border: solid;
+    width: 50%;
+}
+
+#help-txt-p{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#help-txt h1 {
+
+    font-size: 88px;
+    padding-left: 25%;
+
+}
+
+#help-img-container{
+    justify-content: flex-end;
+}
+
+
+#help-img{
+    max-width: 450px;
+    padding-top: 50px;
+    padding-left: 25%;
 
 }
 
