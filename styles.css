@@ -6,6 +6,8 @@
     margin:0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
 
 }
 
@@ -14,6 +16,8 @@
     align-items: center;
     
 }
+
+
 
 /*----------------------------------------------------HEADER--------------------------------------------------------*/
 
@@ -202,20 +206,63 @@ padding-top: 25px ;
 
 #help-txt{
     flex-direction: column;
+    justify-content: space-evenly;
+    
     color: #ffff;
-    border: solid;
     width: 50%;
+    height: 95vh;
+
+
+    padding-bottom: 10%;
+    padding-top: 5%;
+    position: relative;
+    top: 20px;
+
 }
+
 
 #help-txt-p{
     flex-direction: column;
-    justify-content: space-evenly;
+    padding-top: 5%;
+ 
 }
+
+#help-txt-h1{
+
+
+    height: 100vh;
+    padding-left: 25%;
+    padding-top: 5%;
+    justify-content: space-evenly;
+
+
+}
+
+
 
 #help-txt h1 {
 
-    font-size: 88px;
-    padding-left: 25%;
+    font-size: 80px;
+
+}
+
+#help-txt-h1 p {
+
+    font-size: 28px;
+
+}
+
+#help-txt-p{
+    justify-content: space-evenly;
+    padding-left: 35%;
+    height: 60vh;
+
+}
+
+#help-txt-p p{
+
+    font-size: 20px;
+    padding-top: 5%
 
 }
 
@@ -226,16 +273,29 @@ padding-top: 25px ;
 
 #help-img{
     max-width: 450px;
-    padding-top: 50px;
     padding-left: 25%;
 
+}
+
+#socialmedia{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 99%.99;
+    background-color: #fff;
+    
+}
+
+#socialmedia img {
+    max-width: 70px;
 }
 
 
 
 
 
-/*-------------------------------------------------------------media querie??------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------media query------------------------------------------------------------------------------*/
 
 @media (max-width: 1080px) {
 
@@ -274,6 +334,37 @@ padding-top: 25px ;
         width: 55.5%;
         align-items: center;
 
+    }
+
+    #help-img{
+
+        max-width: 250px;
+
+    }
+
+
+    #help-txt h1 {
+
+        font-size: 60px;
+    
+    }
+    
+    #help-txt-h1 p {
+    
+        font-size: 20px;
+    
+    }
+
+    #help-txt-p p{
+
+        padding-top: 5%;
+        font-size: 16px;
+    
+    }
+
+    #socialmedia img {
+        max-width: 50px;
+        padding-top: 10%;
     }
 
 }
